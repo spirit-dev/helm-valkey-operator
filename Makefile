@@ -1,7 +1,7 @@
 .ONESHELL:
 
 # Service
-NAMESPACE = kube-system
+NAMESPACE = valkey-system
 RELEASE_NAME = valkey-operator-turingpi
 # ENV ?= ### Specify the env to use
 ENV = turingpi

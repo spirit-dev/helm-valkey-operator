@@ -1,0 +1,6 @@
+dependencies:
+- name: valkey-operator
+  repository: oci://ghcr.io/hyperspike
+  version: v0.0.61-chart
+digest: sha256:107b09f1e5eab50e978f64a9cf856d926044a677973c15974a551cf316f7703f
+generated: "2026-07-29T13:29:05.886165211-04:00"

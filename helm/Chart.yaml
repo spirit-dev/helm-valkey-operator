@@ -1,0 +1,25 @@
+apiVersion: v2
+name: valkey-operator
+description: Valkey Operator Helm Chart
+home: https://github.com/hyperspike/valkey-operator
+icon: https://raw.githubusercontent.com/valkey-io/valkey/main/logos/valkey-icon-color.svg
+sources:
+  - https://github.com/hyperspike/valkey-operator
+dependencies:
+  - name: valkey-operator
+    repository: oci://ghcr.io/hyperspike
+    version: v0.0.61-chart
+
+type: application
+
+# renovate: datasource=docker depName=ghcr.io/hyperspike/valkey-operator
+version: "v0.0.61-chart"
+
+# renovate: datasource=github-releases depName=hyperspike/valkey-operator
+appVersion: v0.0.61
+
+keywords:
+  - valkey
+  - operator
+  - controller
+  - cache
